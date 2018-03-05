@@ -69,6 +69,11 @@ body{
   background-color:#969696;
 }
 
+#display{
+   padding-top:10px;
+   font-size:20px;
+}
+
 #view{
   height:50px;
   width:80%;
