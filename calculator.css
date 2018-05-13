@@ -52,16 +52,19 @@
     font-size:20px;
     color:#f9621f;
     font-size:2em;
+    border-bottom: rgba()
   }
   #button-body{
     margin:5%;
     height:70%;
   }
+  #calcBody{
+    border-radius:2%;
+  }
 }
 
 #calcBody{
   background-color:#192466;
-  border-radius:2%;
   padding:10px;
 }
 
@@ -85,6 +88,7 @@ body{
 
 .btn{
   border:none;
+  box-shadow:1px 0px rgb(91, 91, 255,0.2);
   background-color:rgba(19,27,76,0.2);
 	padding:5px;
 }
