@@ -88,7 +88,7 @@ body{
 
 .btn{
   border:none;
-  box-shadow:1px 0px rgb(91, 91, 255,0.2);
+  box-shadow:1px 3px rgb(91, 91, 160,0.1);
   background-color:rgba(19,27,76,0.2);
 	padding:5px;
 }
@@ -96,15 +96,17 @@ body{
 button{
 	color:#f9621f;
 }
-button:hover{
-	background: linear-gradient(to bottom, transparent 50%, #131b4c 100%);
-}
+ button:hover{
+	background: linear-gradient(to bottom, transparent 20%, #131b4c 100%);
+} 
 button:active{
-  background: linear-gradient(to bottom, transparent 70%, #131b4c 90%);
+  background: linear-gradient(to bottom, transparent 60%, #131b4c 90%);
 }
 .btn:focus{
   outline:none;
 }
-
+button:after .btn:after {
+  content: none;
+}
 
 
