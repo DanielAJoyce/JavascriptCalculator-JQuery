@@ -88,7 +88,7 @@ body{
 
 .btn{
   border:none;
-  box-shadow:1px 3px rgb(91, 91, 160,0.1);
+  box-shadow:1px 3px rgba(91, 91, 160,0.1);
   background-color:rgba(19,27,76,0.2);
 	padding:5px;
 }
